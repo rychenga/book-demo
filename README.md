@@ -1,6 +1,6 @@
 # book-demo
 borrow books system demo
-::功能項目
+::語言-GOLang
 1. gin 架設 Web Service
 2. orm 設計 「物件關係的映射」對資料庫執行 新增、修改、刪除及查詢 功能
 3. Web Service 採用 RESTful 作為設計，完成一項功能的 CRUD(Create、Read、Update、Delete)。

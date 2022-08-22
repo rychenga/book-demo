@@ -6,6 +6,12 @@ borrow books system demo
 3. Web Service 採用 RESTful 作為設計，完成一項功能的 CRUD(Create、Read、Update、Delete)。
 4. 資料庫採用SQLite
 
+::impoart
+go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm
+go get -u github.com/mattn/go-oci8
+
+::指定功能
 :GET:    Read
 curl localhost:8080/GET
 http://localhost:8080/GET?name=A_BOOK
